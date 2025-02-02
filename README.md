@@ -1,6 +1,4 @@
-# Clucero
-"Iniciando en el Analisis de Datos"
-"Analista Jr de datos."
-"Aprendiendo GitHub."
-Ahora, con Commint
+# Clucero: Analista de Datos Jr.
+"Iniciando en el Analisis de Datos".
+
 
