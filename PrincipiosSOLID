@@ -1,0 +1,26 @@
+Los principios SOLID son cinco reglas clave en la programación orientada a objetos que ayudan a escribir código más limpio, mantenible y flexible.
+
+S - Principio de Responsabilidad Única (Single Responsibility Principle, SRP)
+Cada clase debe tener una única razón para cambiar.
+✅ Una clase debe hacer solo una cosa y hacerla bien.
+
+O - Principio de Abierto/Cerrado (Open/Closed Principle, OCP)
+El código debe estar abierto a extensiones, pero cerrado a modificaciones.
+✅ Puedes agregar nuevas funcionalidades sin cambiar el código existente.
+
+L - Principio de Sustitución de Liskov (Liskov Substitution Principle, LSP)
+Los objetos de una subclase deben poder reemplazar a los de su superclase sin alterar el comportamiento del programa.
+✅ Si una clase hija necesita modificar demasiado el comportamiento del padre, algo está mal.
+
+I - Principio de Segregación de Interfaces (Interface Segregation Principle, ISP)
+Las interfaces deben ser específicas y no obligar a las clases a implementar métodos que no usan.
+✅ Es mejor muchas interfaces pequeñas que una enorme con métodos innecesarios.
+
+D - Principio de Inversión de Dependencias (Dependency Inversion Principle, DIP)
+Las clases deben depender de abstracciones, no de implementaciones concretas.
+✅ Usa interfaces o clases abstractas para evitar dependencias rígidas.
+
+
+
+
+
