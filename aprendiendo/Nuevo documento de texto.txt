@@ -1,0 +1,11 @@
+with open(r"C:\Users\lucho\Desktop\TEMMPP\CURSOS_\Clucero\aprendiendo\GPS1.txt","r+") as gps1:
+    gps1.write("Nombre, Puesto, Distancia\n")
+    contenido = gps1.read()
+    for i in range(5):
+        gps1.seek(i)
+        contenido = gps1.read()
+        print(contenido)    
+    print("Contenido del archivo:")
+    print(contenido)
+    gps1.seek(22)
+    gps1.write("Nombre2, Puesto2, Distancia2\n")
